@@ -1,0 +1,58 @@
+{
+  "id": "day03",
+  "day": 3,
+  "topic": "-지만",
+  "category": "句子连接",
+  "title": "学会表达“但是”",
+  "summary": "替换成当天的学习简介。",
+  "minutes": 20,
+  "lesson": {
+    "title": "-지만：表达转折",
+    "rule": "写入当天的一段语法解释。",
+    "before": [
+      "오늘은 바빠요.",
+      "그래도 공부해요."
+    ],
+    "beforeTranslation": "今天很忙。即使这样也学习。",
+    "after": "오늘은 바쁘지만 공부해요.",
+    "afterTranslation": "今天虽然忙，但还是学习。",
+    "tips": [
+      "把语法变化写在这里。"
+    ]
+  },
+  "sections": [
+    {
+      "title": "第一部分 · 选择填空",
+      "description": "选出正确答案",
+      "hint": "1 道题 · 选择",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "choice",
+          "prompt": "오늘은 바쁘(   ) 공부해요.",
+          "options": [
+            "고",
+            "지만",
+            "어서"
+          ],
+          "answer": "지만",
+          "explanation": "바쁘다 的词干 바쁘- 接 -지만。"
+        }
+      ]
+    },
+    {
+      "title": "第二部分 · 合并句子",
+      "description": "把两个句子合并",
+      "hint": "1 道题 · 写作",
+      "questions": [
+        {
+          "id": "q02",
+          "type": "write",
+          "prompt": "오늘은 바빠요.\n그래도 공부해요.",
+          "answer": "오늘은 바쁘지만 공부해요.",
+          "explanation": "把第一句的 바빠요 改成 바쁘지만。"
+        }
+      ]
+    }
+  ]
+}

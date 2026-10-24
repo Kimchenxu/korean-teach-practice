@@ -1,0 +1,10 @@
+{
+  "siteTitle": "每天一点点韩语",
+  "headline": "把韩语说成完整的句子",
+  "description": "从简单短句开始，每天练一点连接语法。能听懂、能说，也能慢慢写得更自然。",
+  "plannedDays": 14,
+  "lessons": [
+    "day01",
+    "day02"
+  ]
+}
