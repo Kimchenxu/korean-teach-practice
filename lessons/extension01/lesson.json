@@ -1,0 +1,498 @@
+{
+  "id": "extension01",
+  "day": 2,
+  "displayLabel": "EXTENSION 1",
+  "topic": "-고 总复习 · 助词 · 词汇 · -지만 预习",
+  "category": "专项强化",
+  "title": "Extension 1 · 句子与词汇强化",
+  "summary": "针对 Day 1–2 的错题：词汇想不起来、动词变形混淆、은/는 与 이/가 不确定。50 题，46 道要自己写。",
+  "minutes": 60,
+  "lesson": {
+    "title": "写出完整韩语：词干 + 助词 + 连接词",
+    "rule": "先说出来，再输入。第一天第二天已经认识 -고，这次要练到“自己写得对”。前 42 题大多限定目标形式，可自动核对；最后 8 题允许自然表达，需认真自评。",
+    "before": [
+      "저는 음악을 들어요.",
+      "저는 숙제를 해요."
+    ],
+    "beforeTranslation": "我听音乐。我做作业。",
+    "after": "저는 음악을 듣고 숙제를 해요.",
+    "afterTranslation": "我听音乐，也做作业。",
+    "tips": [
+      "-고：词干直接加 고。먹다 → 먹고，공부하다 → 공부하고；不要写 먹어요고 / 공부해고。",
+      "듣다 → 듣고（接辅音开头的 고 不变化），但 듣다 → 들어요（接元音词尾时 ㄷ→ㄹ）。",
+      "은/는：常用于引入话题、对比。前面词有收音用 은；没有收音用 는。",
+      "이/가：常用于回答“谁/什么”以及主语新信息。前面词有收音用 이；没有收音用 가。",
+      "例如：저는 학생이에요（说到我）/ 제가 했어요（是我做的）。",
+      "-지만：词干 + 지만 表示转折。바쁘다 → 바쁘지만。",
+      "易错拼写：청소（打扫）、설거지（洗碗）、피곤（疲倦）、조금（一点）。",
+      "固定形式题自动评分；生活翻译题请认真对照助词、拼写、词尾再决定是否正确。"
+    ]
+  },
+  "sections": [
+    {
+      "title": "01 · 选择热身",
+      "description": "先回忆 -고、主题助词与转折。",
+      "hint": "4 道题 · 选择",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "choice",
+          "prompt": "저는 밥을 (   ) 차를 마셔요.",
+          "options": [
+            "먹고",
+            "먹어요",
+            "먹었어요"
+          ],
+          "answer": "먹고",
+          "explanation": "먹다 → 먹고。不能写 먹어요고。"
+        },
+        {
+          "id": "q02",
+          "type": "choice",
+          "prompt": "제 방(   ) 넓고 깨끗해요.（以“我的房间”为话题）",
+          "options": [
+            "을",
+            "은",
+            "이"
+          ],
+          "answer": "은",
+          "explanation": "방 有收音，话题助词是 은。"
+        },
+        {
+          "id": "q03",
+          "type": "choice",
+          "prompt": "누(   ) 왔어요?",
+          "options": [
+            "가",
+            "는",
+            "를"
+          ],
+          "answer": "가",
+          "explanation": "누구 + 가 缩成 누가，表示“谁来了？”"
+        },
+        {
+          "id": "q04",
+          "type": "choice",
+          "prompt": "오늘은 바쁘(   ) 한국어를 공부해요.（虽然忙，还是学）",
+          "options": [
+            "고",
+            "어서",
+            "지만"
+          ],
+          "answer": "지만",
+          "explanation": "-지만 表示转折：바쁘다 → 바쁘지만。"
+        }
+      ]
+    },
+    {
+      "title": "02 · 词汇回忆与拼写",
+      "description": "不要查词典。写出课堂目标词的词典形或完整单词，写完再看答案。",
+      "hint": "10 道题 · 自动核对",
+      "questions": [
+        {
+          "id": "q05",
+          "type": "write",
+          "prompt": "写韩语词典形：“打扫卫生”（청소 + 하다）。",
+          "answer": "청소하다",
+          "explanation": "청소하다，名词 청소。注意不是 헝소。",
+          "autoGrade": true
+        },
+        {
+          "id": "q06",
+          "type": "write",
+          "prompt": "写韩语词典形：“洗碗”（설거지 + 하다）。",
+          "answer": "설거지하다",
+          "explanation": "설거지하다，常用动词。",
+          "autoGrade": true
+        },
+        {
+          "id": "q07",
+          "type": "write",
+          "prompt": "写韩语词典形：“疲倦的、累的”。",
+          "answer": "피곤하다",
+          "explanation": "피곤하다 → 피곤해요。注意 피곤 的拼写。",
+          "autoGrade": true
+        },
+        {
+          "id": "q08",
+          "type": "write",
+          "prompt": "写韩语词：“一点、稍微”（目标词：조금）。",
+          "answer": "조금",
+          "explanation": "조금，也可在口语中说 좀；本题按目标词填写。",
+          "autoGrade": true
+        },
+        {
+          "id": "q09",
+          "type": "write",
+          "prompt": "写韩语名词：“音乐”。",
+          "answer": "음악",
+          "explanation": "음악을 듣다：听音乐。",
+          "autoGrade": true
+        },
+        {
+          "id": "q10",
+          "type": "write",
+          "prompt": "写韩语名词：“作业”。",
+          "answer": "숙제",
+          "explanation": "숙제를 하다：做作业。",
+          "autoGrade": true
+        },
+        {
+          "id": "q11",
+          "type": "write",
+          "prompt": "写韩语词典形：“宽敞的”。",
+          "answer": "넓다",
+          "explanation": "넓다 → 넓고 / 넓어요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q12",
+          "type": "write",
+          "prompt": "写韩语词典形：“轻的”（重量轻）。",
+          "answer": "가볍다",
+          "explanation": "가볍다 → 가볍고 / 가벼워요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q13",
+          "type": "write",
+          "prompt": "写韩语词典形：“画（画画）”。",
+          "answer": "그리다",
+          "explanation": "그리다 → 그리고 / 그려요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q14",
+          "type": "write",
+          "prompt": "写韩语词典形：“听”。",
+          "answer": "듣다",
+          "explanation": "듣다 → 듣고；但 듣다 → 들어요。",
+          "autoGrade": true
+        }
+      ]
+    },
+    {
+      "title": "03 · 词干与词尾变形",
+      "description": "不要把 해요、아요、어요 直接接上 고。每题只写变形后的韩语。",
+      "hint": "10 道题 · 自动核对",
+      "questions": [
+        {
+          "id": "q15",
+          "type": "write",
+          "prompt": "읽다 + -고 = ?",
+          "answer": "읽고",
+          "explanation": "읽- + 고 = 읽고；不能写 읽어하고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q16",
+          "type": "write",
+          "prompt": "공부하다 + -고 = ?",
+          "answer": "공부하고",
+          "explanation": "공부하- + 고 = 공부하고；不是 공부해고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q17",
+          "type": "write",
+          "prompt": "좋다 + -고 = ?",
+          "answer": "좋고",
+          "explanation": "좋- + 고 = 좋고，不是 좋아고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q18",
+          "type": "write",
+          "prompt": "춥다 + -고 = ?",
+          "answer": "춥고",
+          "explanation": "춥- + 고 = 춥고；接 -어요 时才是 추워요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q19",
+          "type": "write",
+          "prompt": "바쁘다 + -고 = ?",
+          "answer": "바쁘고",
+          "explanation": "바쁘- + 고 = 바쁘고；바빠고 不对。",
+          "autoGrade": true
+        },
+        {
+          "id": "q20",
+          "type": "write",
+          "prompt": "듣다 + -고 = ?",
+          "answer": "듣고",
+          "explanation": "ㄷ 不规则不是所有形式都变！+ 고 → 듣고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q21",
+          "type": "write",
+          "prompt": "그리다 + -고 = ?",
+          "answer": "그리고",
+          "explanation": "그리- + 고 = 그리고；不要写 그려고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q22",
+          "type": "write",
+          "prompt": "부르다 + -고 = ?",
+          "answer": "부르고",
+          "explanation": "부르- + 고 = 부르고；而句末是 불러요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q23",
+          "type": "write",
+          "prompt": "듣다 + -어요 = ?",
+          "answer": "들어요",
+          "explanation": "ㄷ 不规则：듣다 + 어요 → 들어요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q24",
+          "type": "write",
+          "prompt": "작다 + -아요 = ?",
+          "answer": "작아요",
+          "explanation": "작다 → 작아요；作比较时 작고。",
+          "autoGrade": true
+        }
+      ]
+    },
+    {
+      "title": "04 · 은/는 与 이/가",
+      "description": "根据括号里给出的语境填一个助词。注意：真实韩语中，语境不同可能产生其他正确表达。",
+      "hint": "10 道题 · 自动核对",
+      "questions": [
+        {
+          "id": "q25",
+          "type": "write",
+          "prompt": "（介绍自己的身份）저(   ) 회사원이에요.",
+          "answer": "는",
+          "explanation": "저는：介绍自己作为谈论话题。",
+          "autoGrade": true
+        },
+        {
+          "id": "q26",
+          "type": "write",
+          "prompt": "（回答“누가 왔어요?”）엄마(   ) 왔어요.",
+          "answer": "가",
+          "explanation": "엄마가：回答谁来了，强调主语。",
+          "autoGrade": true
+        },
+        {
+          "id": "q27",
+          "type": "write",
+          "prompt": "（对比姐姐和妹妹）언니는 키가 크고 동생(   ) 키가 작아요.",
+          "answer": "은",
+          "explanation": "동생은：与前面的 언니는 作对比。동생 有收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q28",
+          "type": "write",
+          "prompt": "（报告天气变化）비(   ) 와요.",
+          "answer": "가",
+          "explanation": "비가 와요：雨正在下，主语 비 无收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q29",
+          "type": "write",
+          "prompt": "（说起自己的房间）제 방(   ) 넓고 깨끗해요.",
+          "answer": "은",
+          "explanation": "제 방은：把自己的房间作为话题。방 有收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q30",
+          "type": "write",
+          "prompt": "（回答“누가 요리해요?”）아빠(   ) 요리해요.",
+          "answer": "가",
+          "explanation": "아빠가：回答谁做饭，아빠 无收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q31",
+          "type": "write",
+          "prompt": "（说到今天）오늘(   ) 조금 바빠요.",
+          "answer": "은",
+          "explanation": "오늘은：以今天为话题，오늘 有收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q32",
+          "type": "write",
+          "prompt": "（回答“뭐가 맛있어요?”）이 빵(   ) 맛있어요.",
+          "answer": "이",
+          "explanation": "빵이：回答哪样东西好吃，빵 有收音。",
+          "autoGrade": true
+        },
+        {
+          "id": "q33",
+          "type": "write",
+          "prompt": "（介绍自己的日常）저(   ) 매일 한국어를 공부해요.",
+          "answer": "는",
+          "explanation": "저는：陈述自己的习惯。",
+          "autoGrade": true
+        },
+        {
+          "id": "q34",
+          "type": "write",
+          "prompt": "（回答“누가 노래해요?”）아이(   ) 노래해요.",
+          "answer": "가",
+          "explanation": "아이가：回答谁唱歌，아이 无收音。",
+          "autoGrade": true
+        }
+      ]
+    },
+    {
+      "title": "05 · 改错诊所",
+      "description": "每题至少有一处错误；按原句意思与结构修正，不要随意改变内容。",
+      "hint": "8 道题 · 自动核对",
+      "questions": [
+        {
+          "id": "q35",
+          "type": "write",
+          "prompt": "改错：저는 책을 읽어하고 음악을 들어요.",
+          "answer": "저는 책을 읽고 음악을 들어요.",
+          "explanation": "읽다 + 고 = 읽고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q36",
+          "type": "write",
+          "prompt": "改错：이 가방은 작아하고 가벼워요.",
+          "answer": "이 가방은 작고 가벼워요.",
+          "explanation": "작다 + 고 = 작고；省略重复话题更自然。",
+          "autoGrade": true
+        },
+        {
+          "id": "q37",
+          "type": "write",
+          "prompt": "改错：오늘은 날씨가 좋아고 바람도 불어요.",
+          "answer": "오늘은 날씨가 좋고 바람도 불어요.",
+          "explanation": "좋다 + 고 = 좋고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q38",
+          "type": "write",
+          "prompt": "改错：오늘은 추워고 바람이 불어요.",
+          "answer": "오늘은 춥고 바람이 불어요.",
+          "explanation": "춥다 + 고 = 춥고。",
+          "autoGrade": true
+        },
+        {
+          "id": "q39",
+          "type": "write",
+          "prompt": "改错：저는 음악을 들고 숙제를 해요.",
+          "answer": "저는 음악을 듣고 숙제를 해요.",
+          "explanation": "듣다 + 고 = 듣고；들고 是 들다（拿着）的变形。",
+          "autoGrade": true
+        },
+        {
+          "id": "q40",
+          "type": "write",
+          "prompt": "改错：제 방을 넓고 깨끗해요.",
+          "answer": "제 방은 넓고 깨끗해요.",
+          "explanation": "这里 방 是句子的主题，不是宾语。",
+          "autoGrade": true
+        },
+        {
+          "id": "q41",
+          "type": "write",
+          "prompt": "改错：언니는 키가 크고 동생는 키가 작어요.",
+          "answer": "언니는 키가 크고 동생은 키가 작아요.",
+          "explanation": "동생은：有收音用 은；작다 → 작아요。",
+          "autoGrade": true
+        },
+        {
+          "id": "q42",
+          "type": "write",
+          "prompt": "改错：엄마는 헝소하고 아빠는 설거지 해요.",
+          "answer": "엄마는 청소하고 아빠는 설거지해요.",
+          "explanation": "拼写 청소；설거지하다 作为一个动词写为 설거지해요。",
+          "autoGrade": true
+        }
+      ]
+    },
+    {
+      "title": "06 · 生活句子独立翻译",
+      "description": "先口头说，再写韩文。这里允许语义相同的自然表达，需要对照参考答案认真核对。",
+      "hint": "6 道题 · 独立作答",
+      "questions": [
+        {
+          "id": "q43",
+          "type": "write",
+          "prompt": "中译韩：我听音乐，也做作业。",
+          "answer": "저는 음악을 듣고 숙제를 해요.",
+          "explanation": "听音乐：음악을 듣다；做作业：숙제를 하다；듣다 + 고 = 듣고。",
+          "autoGrade": false
+        },
+        {
+          "id": "q44",
+          "type": "write",
+          "prompt": "中译韩：我的房间宽敞而且干净。",
+          "answer": "제 방은 넓고 깨끗해요.",
+          "explanation": "房间作话题：제 방은；넓다 → 넓고。",
+          "autoGrade": false
+        },
+        {
+          "id": "q45",
+          "type": "write",
+          "prompt": "中译韩：姐姐个子高，弟弟个子矮。",
+          "answer": "언니는 키가 크고 남동생은 키가 작아요.",
+          "explanation": "키가 크다 / 키가 작다；对比两人用 는 / 은。오빠/언니 等称呼会随说话人性别不同。",
+          "autoGrade": false
+        },
+        {
+          "id": "q46",
+          "type": "write",
+          "prompt": "中译韩：我今天很累，而且有点忙。",
+          "answer": "저는 오늘 피곤하고 조금 바빠요.",
+          "explanation": "피곤하다 → 피곤하고；바쁘다 → 바빠요。",
+          "autoGrade": false
+        },
+        {
+          "id": "q47",
+          "type": "write",
+          "prompt": "中译韩：谁来了？妈妈来了。",
+          "answer": "누가 왔어요? 엄마가 왔어요.",
+          "explanation": "누구가 常缩写为 누가；回答谁来了用 엄마가。",
+          "autoGrade": false
+        },
+        {
+          "id": "q48",
+          "type": "write",
+          "prompt": "中译韩：爸爸打扫房间，妈妈洗碗。",
+          "answer": "아빠는 방을 청소하고 엄마는 설거지해요.",
+          "explanation": "방을 청소하다，설거지하다；两个不同的主语可以用 -고 连接。",
+          "autoGrade": false
+        }
+      ]
+    },
+    {
+      "title": "07 · 预习下一知识点：-지만",
+      "description": "前面练的是“而且”，接下来学“虽然……但是……”。",
+      "hint": "2 道题 · 独立作答",
+      "questions": [
+        {
+          "id": "q49",
+          "type": "write",
+          "prompt": "中译韩（使用 -지만）：这件衣服很漂亮，但是贵。",
+          "answer": "이 옷은 예쁘지만 비싸요.",
+          "explanation": "예쁘다 → 예쁘지만；비싸다 → 비싸요。",
+          "autoGrade": false
+        },
+        {
+          "id": "q50",
+          "type": "write",
+          "prompt": "中译韩（使用 -지만）：今天很忙，但我还是学习韩语。",
+          "answer": "오늘은 바쁘지만 한국어를 공부해요.",
+          "explanation": "바쁘다 → 바쁘지만。-지만 用于表达对比、转折。",
+          "autoGrade": false
+        }
+      ]
+    }
+  ]
+}
